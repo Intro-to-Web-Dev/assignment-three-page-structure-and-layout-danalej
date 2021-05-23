@@ -1,0 +1,94 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* structure and style */
+/* Assignment 3 questions
+1.) My color schemed changed since the wireframe. Once I started getting images in place I started choosing colors that appeared more fitting for distinct page elements.
+included in the css all colors used are in hexadecimal. #add8e6, #708090, #000000, #ff0000, #0000FF, #008000
+2.) #add8e6, #708090, #000000, #ff0000, #0000FF, #008000, #8d2f00
+3.) The site has different color schemes for different pages depending on image used. I went for this project with a more,
+learning approach and plan to overhaul with a consistent color pallette down the line, as of now i'm just trying different feelings out.
+
+Fonts:
+1.) For now the only font in use is the default Verdana font as it is clean and easy to read.
+2.) Incorporated throughout my pages is a mixture of <h1 - h3> and <p>
+3.) Default letter spacing are being used for this project as placement, page layout are main concerns.
+
+*/
+
+/* structure and style */
+#head_struct{
+    width: 100%;
+    height: 80px;
+    background-color: #add8e6;
+}
+
+#foot_struct{
+    width: 100%;
+    height: 100px;
+    background-color: #add8e6;
+    clear: both;
+}
+.topnav{
+    background-color:#708090;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    height: 20px;
+}
+
+.bottomnav{
+    background-color: #708090;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    height: 20px;
+}
+.flex_links{
+    display: flex;
+    flex-direction: row;
+    
+}
+/* Psuedo implementation */
+
+a:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ff0000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0000FF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #008000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
